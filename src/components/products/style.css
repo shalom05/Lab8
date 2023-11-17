@@ -1,0 +1,25 @@
+/* style.css */
+
+.product {
+    border: 1px solid purple;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+  }
+  
+  .product-image {
+        height: 300px;
+        margin: 0 auto; /* Esto centra horizontalmente el elemento en un contenedor bloque */
+        display: block; /* Asegura que sea un bloque para que el margin: 0 auto; funcione */
+    
+  }
+  
+  .productname, 
+  .productprice, 
+  .quantity {
+    margin: 3px 0;
+  }
+  
